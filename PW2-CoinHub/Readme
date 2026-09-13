@@ -1,0 +1,80 @@
+# CoinHub
+
+Sistema de gerenciamento de vendas e estoque de moedas virtuais para jogos.
+
+O CoinHub foi desenvolvido como um sistema de controle para uma loja de moedas virtuais, permitindo gerenciar produtos, compras, vendas, estoque, usuários e relatórios através de um banco de dados MySQL.
+
+---
+
+# Acesso ao sistema
+
+Para acessar o sistema, utilize:
+
+- Usuário: `admin`
+- Senha: `123456`
+
+---
+
+## Funcionalidades
+
+### Login
+
+- Tela de login para acesso ao sistema.
+- Controle de acesso ao sistema.
+- Usuário precisa estar autenticado para acessar as páginas administrativas.
+- Autenticação realizada através do banco de dados.
+
+### Dashboard
+
+- Página inicial do sistema.
+- Apresenta informações gerais da loja.
+- Exibe informações relacionadas a produtos e estoque.
+- Identifica produtos com estoque baixo.
+- Identifica produtos sem estoque.
+
+### Produtos
+
+- Cadastro de produtos.
+- Visualização dos produtos disponíveis.
+- Edição de produtos.
+- Exclusão de produtos.
+- Controle da quantidade disponível em estoque.
+- Identificação de produtos sem estoque.
+- Identificação de estoque baixo.
+- Exibição do preço dos produtos.
+- Associação do produto ao jogo.
+
+### Compras
+
+- Registro de compras de produtos.
+- Visualização das compras realizadas.
+- Edição de compras.
+- Exclusão de compras.
+- Registro da quantidade comprada.
+- Registro do valor da compra.
+- Registro da data da compra.
+- Atualização do estoque após uma compra.
+
+### Vendas
+
+- Registro de vendas.
+- Visualização das vendas realizadas.
+- Edição de vendas.
+- Exclusão de vendas.
+- Registro do produto vendido.
+- Registro do cliente.
+- Registro da quantidade vendida.
+- Registro do valor da venda.
+- Registro da data da venda.
+- Atualização do estoque após uma venda.
+
+### Relatórios
+
+- Exibição de informações relacionadas às vendas.
+- Visualização dos produtos mais vendidos.
+- Visualização dos produtos menos vendidos.
+- Visualização de valores e quantidades.
+- Filtro por período.
+- Informações obtidas diretamente do banco de dados.
+
+---
